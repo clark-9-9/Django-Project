@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def index(request):
     """View for the home page"""
-    return render(request, 'portfolio/home.html', {
+    return render(request, 'portfolio/index.html', {
         'title': 'Home'
     })
 
