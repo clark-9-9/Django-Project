@@ -1,0 +1,98 @@
+{% extends "portfolio/base.html" %}
+
+{% block title %}Projects{% endblock %}
+
+{% block content %}
+<section class="projects-section">
+    <div class="container py-5">
+        <h1 class="text-center mb-5">My Projects</h1>
+        <p class="lead text-center mb-5">Here are some of the projects I've worked on. Each project represents my skills
+            and experience in different technologies.</p>
+
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotify Clone</h5>
+                        <p class="card-text">
+                            <li>A Developed a full-stack Spotify clone, providing core functionalities like music
+                                playback and playlist management.
+                            </li>
+                            <br>
+                            <li>
+                                A Used Spotify API to enhance user data retrieval efficiency, allowing users to interact
+                                with their Spotify accounts.
+                            </li>
+                        </p>
+                        <p class="card-text"><small class="text-muted">Technologies: React.js, TypeScript,Node.js,
+                                Express.js, Spotify
+                                API, OAuth</small>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Real-Time Chat Application</h5>
+                        <p class="card-text">
+                            <li>
+                                A Built a real-time chat application supporting over 500 users, enabling instant
+                                messaging with least latency
+                            </li>
+                            <br>
+                            <li>
+                                A Created a Login/Signup page using MongoDB database to retrieve and add user data.
+                            </li>
+                        </p>
+
+                        <p class="card-text">
+                            <small class="text-muted">Technologies: MERN Stack (MongoDB, Express.js,
+                                React.js, Node.js)
+                            </small>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Job Finder Platform</h5>
+                        <p class="card-text">
+                            <li>
+                                A Deployed a job search platform and build intuitive UI and advanced filteringC
+                            </li>
+                            <br>
+                            <li>
+                                A Supported up to 1,000 concurrent users with a robust backend built on, ensuring high
+                                performance and reliability.
+                            </li>
+                        </p>
+                        <p class="card-text"><small class="text-muted">Technologies: React.js, Node.js, Express.js,
+                                TypeScript, OAuth, JWT </small>
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <p>These are just a few examples of my work. Contact me to discuss how I can bring your project to life!</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
